@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+.navbar ul li{
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;  
+}
+.a-txt{
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    padding: 12px;
+    color: white;
+}
+
+.rightnav {
+    margin:0 5px;
+    position: absolute;
+    right: 0;
+    width: 50vw;
+    text-align: right;
+    float: right;
+}
+
+.rightnav input {
+    width: 35%;
+    outline: none;
+    border-radius: 11px;
+    border: none;
+    height: 24px;
+    padding: 7px;
+}
+
+.rightnav button {
+    width: 10%;
+    height: 24px;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.btn-txt:hover{
+    color: yellow;
+}
+.card-items{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardp{
+    width: 130px;
+    height: 130px;
+    border: 1px solid grey;
+    border-radius: 103px;
+    margin: 10px 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.cardp img{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    background-size: contain;
+}
+.txt{
+    color: rgb(248, 229, 147);
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    font: 1rem;
+}
+.ps{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
